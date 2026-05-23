@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Notebooks (may contain secrets)
+Notebooks/
+
+# FAISS index files (large binary files)
+embedded_file_faiss/
+**/embedded_file_faiss/
